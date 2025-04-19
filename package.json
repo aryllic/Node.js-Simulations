@@ -1,0 +1,18 @@
+{
+  "name": "nodejssimulations",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder build --windows --x64"
+  },
+  "author": "aryllic",
+  "license": "ISC",
+  "description": "A collection of simulations using electron.",
+  "build": {
+    "productName": "Node.js Simulations"
+  },
+  "devDependencies": {
+    "electron": "^35.1.5"
+  }
+}
